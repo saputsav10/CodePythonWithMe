@@ -1,0 +1,1 @@
+a="lets rock and roll".upper()
