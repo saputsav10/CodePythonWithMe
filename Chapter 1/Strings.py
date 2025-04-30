@@ -14,11 +14,17 @@
 # print(a[-21:])
 
 # print(a.find("M"))
-a="letsrockandroll"
-# a="lets rock and roll".upper()
-a1=a.endswith("oll")
-print(type(a))
-print(a)
-print(a1)
+# a="letsrockandroll"
+# # a="lets rock and roll".upper()
+# a1=a.endswith("oll")
+# print(type(a))
+# print(a)
+# print(a1)
+
+a1=["Apple", "Banana", 5, 10, True, False]
+print(a1.append("Fruits"))
+a2=a1.append("Fruits")
+print(a2)
+print(type(a1))
 
 
